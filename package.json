@@ -1,11 +1,11 @@
 {
-  "name": "tasty-treats",
+  "name": "new-tasty-treats",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://lyst67.github.io/tasty-treats",
+  "homepage": "https://lyst67.github.io/new-tasty-treats",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /tasty-treats/"
+    "build": "parcel build src/*.html --public-url /new-tasty-treats/"
   },
   "repository": {
     "type": "git",
