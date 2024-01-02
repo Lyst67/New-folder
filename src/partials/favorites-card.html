@@ -1,0 +1,93 @@
+<div class="favorites-card">
+  <div class="container">
+    <picture class="picture-wrapp">
+      <source
+        class="favorites-card-img"
+        media="(min-width:1280px)"
+        srcset="./img/favorites/card.jpg"
+      />
+      <source
+        class="favorites-card-img"
+        media="(min-width:768px)"
+        srcset="./img/favorites/card-tabl.jpg"
+      />
+      <source
+        class="favorites-card-img"
+        media="(min-width:375px)"
+        srcset="./img/favorites/card-mob.jpg"
+      />
+      <img
+        class="favorites-card-img"
+        src="./img/favorites/card.jpg"
+        alt="card"
+        style="width: auto"
+      />
+    </picture>
+
+    <!-- Andrii Polatovskyi -->
+    <include src="./partials/favorite-categories.html"></include>
+
+    <!-- <ul class="cards-recipe card-recipe-favorite"></ul> -->
+    <ul class="card-recipe-favorite"></ul>
+
+    <ul class="page-pagination-list">
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-beginning bc">
+          <svg class="svg-switch-duo">
+            <use href="./img/icons.svg#icon-beginning"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-previous bc">
+          <svg class="svg-switch">
+            <use href="./img/icons.svg#icon-previous"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-first act">1</button>
+      </li>
+      <li class="page-pagination-item page-pagination-item-second">
+        <button type="button" class="btn-list btn-second">2</button>
+      </li>
+      <li class="page-pagination-item page-pagination-item-third">
+        <button type="button" class="btn-list btn-third">3</button>
+      </li>
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-show-others">...</button>
+      </li>
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-next act bc">
+          <svg class="svg-switch">
+            <use href="./img/icons.svg#icon-next"></use>
+          </svg>
+        </button>
+      </li>
+      <li class="page-pagination-item">
+        <button type="button" class="btn-list btn-end act bc">
+          <svg class="svg-switch-duo">
+            <use href="./img/icons.svg#icon-end"></use>
+          </svg>
+        </button>
+      </li>
+    </ul>
+    <div class="no-one js-noone">
+      <div class="no-one-wrap">
+        <svg class="no-one-icon-mob" width="68px" height="58px">
+          <use
+            href="./img/favorites/favorites-icon.svg#favorites-icon-mob"
+          ></use>
+        </svg>
+        <svg class="no-one-icon" width="97px" height="83px">
+          <use href="./img/favorites/favorites-icon.svg#favorites-icon"></use>
+        </svg>
+        <p class="no-one-text">
+          It appears that you haven't added any recipes to your favorites yet.
+          To get started, you can add recipes that you like to your favorites
+          for easier access in the future.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
